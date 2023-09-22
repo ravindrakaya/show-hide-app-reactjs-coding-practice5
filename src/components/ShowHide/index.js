@@ -3,7 +3,7 @@ import './index.css'
 import {Component} from 'react'
 
 class ShowHide extends Component {
-  state = {firstName: true, lastName: true}
+  state = {firstName: false, lastName: false}
 
   firstNameBtn = () => {
     const {firstName} = this.state
